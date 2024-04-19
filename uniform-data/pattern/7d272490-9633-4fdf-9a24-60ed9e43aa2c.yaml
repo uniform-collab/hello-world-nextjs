@@ -1,0 +1,26 @@
+composition:
+  _name: Hero Block
+  _id: 7d272490-9633-4fdf-9a24-60ed9e43aa2c
+  type: hero
+  parameters:
+    title:
+      type: text
+      value: '${#jptr:/Content/fields/title} '
+    description:
+      type: text
+      value: ${#jptr:/Content/fields/intro}
+  _dataResources:
+    Content:
+      type: contentBlock
+      variables:
+        locale: ''
+        entryIds: 25j5u4D3R2Nwsc3S9drQTO
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      title: 'yes'
+    hideLockedParameters: true
+created: '2024-04-19T21:21:20.218192+00:00'
+modified: '2024-04-19T21:31:26.354799+00:00'
+pattern: true

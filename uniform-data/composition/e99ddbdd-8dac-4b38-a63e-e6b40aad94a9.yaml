@@ -1,0 +1,19 @@
+composition:
+  _name: Home
+  _id: e99ddbdd-8dac-4b38-a63e-e6b40aad94a9
+  _slug: /
+  type: page
+  slots:
+    content:
+      - _id: 913a2366-b5fa-48a2-acba-cf4bd51d790f
+        type: hero
+        parameters:
+          title:
+            type: text
+            value: Hero title
+          description:
+            type: text
+            value: this hero content is locally stored
+created: '2024-04-19T21:21:20.483418+00:00'
+modified: '2024-04-19T23:06:23.922908+00:00'
+pattern: false

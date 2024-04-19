@@ -1,0 +1,16 @@
+composition:
+  _name: About Us
+  _id: 39588d16-ff79-4ba9-9925-59fb59a0ca35
+  _slug: about-us
+  type: page
+  slots:
+    content:
+      - _id: 3aa46c63-1704-4aed-ad3b-13e11c846052
+        type: hero
+        parameters:
+          title:
+            type: text
+            value: About Us
+created: '2024-04-19T21:21:19.931962+00:00'
+modified: '2024-04-19T21:21:19.931962+00:00'
+pattern: false

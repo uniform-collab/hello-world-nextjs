@@ -1,0 +1,33 @@
+id: article
+displayName: Article
+ttl: 30
+path: /entries
+custom:
+  include: 1
+  includeFields: []
+  allowContentTypeIds:
+    - aritles
+  enableFilterByLocale: false
+  enableAdvancedFilters: false
+method: GET
+purgeKey: a4694d86-571b-47c9-b2b6-172271250f12
+archetype: singleEntry
+variables:
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+parameters:
+  - key: include
+    value: '1'
+  - key: locale
+    value: ${locale}
+    omitIfEmpty: true
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: contentful
+allowedOnComponents: []
